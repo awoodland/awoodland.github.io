@@ -1,0 +1,53 @@
+body {
+background: url("images/pizzaheader.jpg") no-repeat;
+background-size:cover;
+color:#fff;
+ display: inline-block;
+    margin: 0px auto;
+}
+
+h1 {
+
+	font-family: 'Patua One', cursive;
+	font-size: 96px;
+	text-align: center;
+	text-transform: ;
+}
+
+a {
+
+	color:#fff;
+}
+
+p {
+font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-align: center;	
+	color:#fff;
+
+}
+
+ul, li {
+font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-align: center;	
+	color:#fff;
+	list-style-type: none;
+
+}
+#slogan {
+font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-align: center;	
+}
+
+#contact {
+	height:50px;
+	width:auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+	background: #5c5c5c;
+
+}
