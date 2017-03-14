@@ -1,0 +1,135 @@
+body {
+
+color:#fff;
+ display: inline-block;
+    margin: 0px auto;
+}
+
+h1 {
+
+	font-family: 'Patua One', cursive;
+	font-size: 96px;
+	text-align: center;
+	text-transform: ;
+}
+
+h2 {
+	font-family: 'Patua One', cursive;
+	font-size: 36px;
+
+}
+
+a {
+
+	color:#fff;
+}
+
+p {
+font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-align: center;	
+	color:#fff;
+
+
+}
+
+ul, li {
+font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-align: center;	
+	color:#fff;
+	list-style-type: none;
+
+}
+#slogan {
+font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-align: center;	
+}
+
+#intro {
+margin:10px;
+padding: 20px;
+
+}
+
+
+	#pub {
+background: url("images/friends.jpg") no-repeat;
+background-size:cover;
+margin:10px;
+padding: 20px;
+	}
+
+	#left {
+  background-color: rgba(255,0,0,0.7);
+   
+    padding: 20px;
+    float: left;
+    width: 30%;
+	}
+
+	#right {
+    background-color: none;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+	}
+
+#pizza {
+background: url("images/friends.jpg") no-repeat;
+background-size:cover;
+  margin:10px;
+    padding: 20px;
+    height:400px;
+	}
+
+	#pizzaleft {
+   background-color: rgba(255,0,0,0.7);
+
+    padding: 20px;
+    float: right;
+    width: 30%;
+	}
+
+	#pizzaright {
+    background-color: none;
+    padding: 20px;
+    float: left;   
+    width: 62%;
+	}
+
+
+
+
+
+
+	header {
+background: url("images/pizzaheader.jpg") no-repeat;
+background-size:cover;
+    padding: 100px;
+	}
+
+
+
+	nav p {
+		color:#000;
+		background-color: #fff;
+    padding: 20px;
+	}
+
+
+footer {
+background-color: #ff957e;
+    border: 1px black solid;
+    padding: 20px;
+	}
+
+	.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
