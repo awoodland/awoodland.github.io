@@ -2,20 +2,32 @@ body {
 
 color:#fff;
  display: inline-block;
+
     margin: 0px auto;
+    	text-align: center;
 }
 
 h1 {
 
-	font-family: 'Patua One', cursive;
-	font-size: 96px;
+font-family: 'Barrio', cursive;
+
+	font-size: 56px;
 	text-align: center;
 	text-transform: ;
+
+
 }
 
 h2 {
-	font-family: 'Patua One', cursive;
+font-family: 'Barrio', cursive;
 	font-size: 36px;
+
+}
+
+h3 {
+font-family: 'Barrio', cursive;
+	font-size: 16px;
+	color:#fc6320;
 
 }
 
@@ -25,10 +37,11 @@ a {
 }
 
 p {
-font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	text-align: center;	
 	color:#fff;
+	line-height: 25px;
 
 
 }
@@ -44,25 +57,22 @@ font-family: 'Roboto', sans-serif;
 #slogan {
 font-family: 'Roboto', sans-serif;
 	font-size: 24px;
+padding:auto;
 	text-align: center;	
 }
 
-#intro {
-margin:10px;
-padding: 20px;
 
-}
 
 
 	#pub {
-background: url("images/friends.jpg") no-repeat;
+background: url("images/beer.jpg") no-repeat;
 background-size:cover;
 margin:10px;
 padding: 20px;
 	}
 
 	#left {
-  background-color: rgba(255,0,0,0.7);
+  background-color: rgba(252,99,32,0.7);
    
     padding: 20px;
     float: left;
@@ -77,7 +87,7 @@ padding: 20px;
 	}
 
 #pizza {
-background: url("images/friends.jpg") no-repeat;
+background: url("images/pizza.jpg") no-repeat;
 background-size:cover;
   margin:10px;
     padding: 20px;
@@ -85,7 +95,7 @@ background-size:cover;
 	}
 
 	#pizzaleft {
-   background-color: rgba(255,0,0,0.7);
+   background-color: rgba(252,99,32,0.7);
 
     padding: 20px;
     float: right;
@@ -100,14 +110,21 @@ background-size:cover;
 	}
 
 
+#textwraphead {
+	max-width: 630px;
+	margin:auto;
 
 
+}
 
 
 	header {
 background: url("images/pizzaheader.jpg") no-repeat;
 background-size:cover;
-    padding: 100px;
+    padding: 150px;
+    margin:auto;
+
+
 	}
 
 
@@ -120,9 +137,10 @@ background-size:cover;
 
 
 footer {
-background-color: #ff957e;
-    border: 1px black solid;
+background-color: #5c5c5c;
+
     padding: 20px;
+    margin:auto;
 	}
 
 	.clearfix:after {
