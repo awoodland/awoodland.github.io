@@ -1,0 +1,149 @@
+body {
+
+color:#fff;
+width:100%;
+margin:0;
+text-align: center;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+h1 {
+
+font-family: 'Barrio', cursive;
+
+	font-size: 4em;
+	text-align: center;
+	text-transform: ;
+
+
+}
+
+h2 {
+font-family: 'Barrio', cursive;
+	font-size: 2em;
+
+}
+
+h3 {
+font-family: 'Barrio', cursive;
+	font-size: 1em;
+	color:#fc6320;
+
+}
+
+a {
+
+	color:#fff;
+}
+
+p {
+font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	text-align: center;	
+	color:#fff;
+	line-height: 25px;
+
+
+}
+
+ul, li {
+font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	text-align: center;	
+	color:#fff;
+	list-style-type: none;
+
+}
+#slogan {
+font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+padding:auto;
+	text-align: center;	
+	width:50%;
+}
+
+
+
+
+	#pub {
+background: url("images/beer.jpg") no-repeat;
+background-size:cover;
+
+width:100%;
+	}
+
+	#left {
+  background-color: rgba(252,99,32,0.7);
+    padding: 20px;
+
+    float: none;
+    width: 50%;
+	}
+
+
+
+#pizza {
+background: url("images/pizza.jpg") no-repeat;
+background-size:cover;
+min-height:400px;
+    width:100%;
+	}
+
+	#pizzaleft {
+   background-color: rgba(252,99,32,0.7);
+
+    padding: 20px;
+    float: none;
+    width: 50%;
+	}
+
+
+
+
+#textwraphead {
+width:50%;
+margin: 0 auto;
+padding:15px;
+
+}
+
+
+header {
+background: url("images/pizzaheader.jpg") no-repeat;
+background-size:cover;
+min-height:400px;
+width:100%;
+
+	}
+
+
+
+	nav p {
+		color:#000;
+		background-color: #fff;
+    padding: 20px;
+	}
+
+
+footer {
+background-color: #5c5c5c;
+
+
+    margin:auto;
+    width:100%;
+
+	}
+
+	.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
